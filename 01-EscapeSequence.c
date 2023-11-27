@@ -23,6 +23,7 @@ int main(){
     \" => "
     \' => '
     \\ => \
+    %% => %
     \0 => null character
     \nnn => octal value
     \xhh => hexadecimal value
