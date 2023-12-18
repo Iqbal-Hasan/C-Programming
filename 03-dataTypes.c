@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-int main(){
+int main()
+{
 
     // data types
 
@@ -24,8 +25,8 @@ int main(){
     int j = 2147483647;          // 4 bytes (2,147,483,648 to +2,147,483,647) (%d)
     unsigned int k = 4294967295; // 4 bytes (0 to +4,294,967,265) (%u)
 
-    long long int l = 922337203854775807;          // 8 bytes (-9 quintillion to +9 quintillion) (%lld)
-    unsigned long long int m = 1822337203854775807 // 8 bytes (0 to +18 quintillion) (%llu)
+    long long int l = 922337203854775807;           // 8 bytes (-9 quintillion to +9 quintillion) (%lld)
+    unsigned long long int m = 1822337203854775807; // 8 bytes (0 to +18 quintillion) (%llu)
 
     printf("\n");
     return 0;
